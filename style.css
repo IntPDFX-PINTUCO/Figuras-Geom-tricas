@@ -1,0 +1,22 @@
+canvas{
+    border: 1px black solid;
+}
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+button{
+    position: fixed;
+    bottom: 10px;
+    left: 49%;
+    font-size: 40px;
+}
+#mensaje{
+    position: fixed;
+    bottom: 60px;
+    width: 100%;
+    text-align: center;
+}
+#mensaje::first-letter{
+    text-transform: capitalize;
+}
